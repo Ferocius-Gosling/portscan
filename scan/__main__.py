@@ -16,11 +16,3 @@ if __name__ == "__main__":
                 executor.submit(scanner.scan_tcp_port, args.host, i)
             if args.udp_ports:
                 executor.submit(scanner.scan_udp_port, args.host, i)
-
-    # for i in range(first_port, last_port + 1):
-    #     if args.tcp_ports:
-    #         scanner.scan_tcp_port(args.host, i)
-    #     if args.udp_ports:
-    #         scanner.scan_udp_port(args.host, i)
-
-    print("--- %s seconds ---" % (time.time() - start_time))
