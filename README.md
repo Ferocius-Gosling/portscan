@@ -4,7 +4,7 @@
 * Необходимы права администратора.
 
 ## Start
-```python -m port_scanner <host> [-t] [-u] [-p PORT PORT] [-m]```
+```python -m scan <host> [-t] [-u] [-p PORT PORT] [-m]```
 
 ## Сканирование tcp-портов
 ```python -m scan localhost -t```
